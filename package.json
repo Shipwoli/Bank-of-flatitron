@@ -1,0 +1,19 @@
+{
+  "name": "bank-of-flatitron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shipwoli/Bank-of-flatitron.git"
+  },
+  "author": "saviour",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shipwoli/Bank-of-flatitron/issues"
+  },
+  "homepage": "https://github.com/Shipwoli/Bank-of-flatitron#readme"
+}
