@@ -7,7 +7,7 @@ function AddTransactionForm() {
   const [category, setCategory] = useState("")
   const [amount, setAmount] = useState("")
   function handleSubmit(e) {
-    fetch("http://localhost:3000/transactions", {
+    fetch("http://localhost:8000/transactions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -19,7 +19,7 @@ function AddTransactionForm() {
         amount: amount,
       }),
     });
-     alert("added successfully")
+     alert("Success")
   }
   return (
     <div className="ui segment">
