@@ -7,7 +7,7 @@ function AccountContainer() {
   const [transaction, setTransaction] = useState([])
   const [query, setQuery] = useState("")
   useEffect(() => {
-    fetch("http://localhost:8000/transactions?q=" + query)
+    fetch("http://localhost:3000/transactions?q=" + query)
       .then((resp) => resp.json())
       .then(transaction => setTransaction(transaction))
   }, [query])
@@ -15,7 +15,7 @@ function AccountContainer() {
     setQuery(e.target.value)
   }
   return (
-    <div>
+    <div styl>
       <Search handleSearch={handleSearch} />
       <AddTransactionForm />
       <TransactionsList transactions={transaction} />

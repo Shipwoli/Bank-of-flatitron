@@ -104,6 +104,13 @@
       "category": "income",
       "amount": "",
       "id": 15
+    },
+    {
+      "date": "2023-01-18",
+      "description": "saviour",
+      "category": "shop",
+      "amount": "29000",
+      "id": 16
     }
   ]
 }
