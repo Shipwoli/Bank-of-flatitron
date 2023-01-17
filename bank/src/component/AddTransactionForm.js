@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Transaction from "./Transaction";
+
 
 function AddTransactionForm() {
   const [date, setDate] = useState("")
@@ -7,7 +7,7 @@ function AddTransactionForm() {
   const [category, setCategory] = useState("")
   const [amount, setAmount] = useState("")
   function handleSubmit(e) {
-    fetch("http://localhost:3000/transactions", {
+    fetch("https://api-test-7h6w.onrender.com/transactions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
